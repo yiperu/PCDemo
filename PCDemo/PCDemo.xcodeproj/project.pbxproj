@@ -18,6 +18,8 @@
 		CBE06C1B17F2425800946338 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBE06C1A17F2425800946338 /* Default-568h@2x.png */; };
 		CBE06C1E17F2425800946338 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE06C1C17F2425800946338 /* MainStoryboard.storyboard */; };
 		CBE06C2117F2425800946338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE06C2017F2425800946338 /* ViewController.m */; };
+		CBE06C2917F2466700946338 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE06C2817F2466700946338 /* Square.m */; };
+		CBE06C2F17F261AE00946338 /* UIView+UIView_WhereAmI.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE06C2E17F261AE00946338 /* UIView+UIView_WhereAmI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		CBE06C1D17F2425800946338 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CBE06C1F17F2425800946338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CBE06C2017F2425800946338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBE06C2717F2466700946338 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		CBE06C2817F2466700946338 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		CBE06C2D17F261AE00946338 /* UIView+UIView_WhereAmI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIView_WhereAmI.h"; sourceTree = "<group>"; };
+		CBE06C2E17F261AE00946338 /* UIView+UIView_WhereAmI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIView_WhereAmI.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 				CBE06C1C17F2425800946338 /* MainStoryboard.storyboard */,
 				CBE06C1F17F2425800946338 /* ViewController.h */,
 				CBE06C2017F2425800946338 /* ViewController.m */,
+				CBE06C2717F2466700946338 /* Square.h */,
+				CBE06C2817F2466700946338 /* Square.m */,
+				CBE06C2D17F261AE00946338 /* UIView+UIView_WhereAmI.h */,
+				CBE06C2E17F261AE00946338 /* UIView+UIView_WhereAmI.m */,
 				CBE06C0B17F2425800946338 /* Supporting Files */,
 			);
 			path = PCDemo;
@@ -176,6 +186,8 @@
 				CBE06C1117F2425800946338 /* main.m in Sources */,
 				CBE06C1517F2425800946338 /* AppDelegate.m in Sources */,
 				CBE06C2117F2425800946338 /* ViewController.m in Sources */,
+				CBE06C2917F2466700946338 /* Square.m in Sources */,
+				CBE06C2F17F261AE00946338 /* UIView+UIView_WhereAmI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

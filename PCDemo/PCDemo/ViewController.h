@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Square.h"
+#import "UIView+UIView_WhereAmi.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong) IBOutlet UILabel *squarePosition;
+@property (nonatomic, strong) Square *aSquare;
 
 @end
